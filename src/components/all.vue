@@ -92,21 +92,28 @@ export default {
       current: 0,
       timer: null,
       change: null,
+      change2: null,
       none: 1
     }
   },
   methods: {
     changeImg(show) {
       clearInterval(this.change)
+      clearInterval(this.change2)
       this.change = null
+      this.change2 = null
       this.show = show
+      this.none =0
+      this.change2 = setTimeout(e => {
+        this.none = 1
+      },1500)
       this.init()
     },
     init() {
       this.change = setInterval(() => {
         this.show = this.show==0?1:0
         this.none =0
-        setTimeout(e => {
+        this.change2 = setTimeout(e => {
           this.none = 1
         },1500)
       },10000)
