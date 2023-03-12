@@ -1,0 +1,36 @@
+{
+  "name": "wallpapaer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "element-china-area-data": "^5.0.2",
+    "element-ui": "^2.4.5",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.17",
+    "@vue/cli-plugin-router": "~4.5.17",
+    "@vue/cli-plugin-vuex": "~4.5.17",
+    "@vue/cli-service": "~4.5.17",
+    "easemob-websdk": "^4.0.5",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "sass": "^1.54.9",
+    "sass-loader": "^10.3.1",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

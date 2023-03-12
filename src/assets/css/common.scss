@@ -1,0 +1,34 @@
+@for $i from 0 through 1200 {
+  @each $short, $long in l left, t top, r right, b bottom {
+    // 缩写版，结果如： u-m-l-30
+    // 定义外边距
+    .m#{$short}#{$i} {
+      margin-#{$long}: $i + px!important;
+    }
+
+    // 定义内边距
+    .p#{$short}#{$i} {
+      padding-#{$long}: $i + px!important;
+    }
+
+  }
+}
+@for $i from 0 through 1200 {
+  .w-#{$i} {
+    width: $i + px;
+  }
+  .h-#{$i} {
+    height: $i + px;
+  }
+}
+@for $i from 0 through 100 {
+  .w#{$i} {
+    width: $i * 1%;
+  }
+  .h#{$i} {
+    height: $i * 1%;
+  }
+  .fz#{$i}{
+    font-size: $i + px;
+  }
+}

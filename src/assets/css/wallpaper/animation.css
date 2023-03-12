@@ -1,0 +1,1978 @@
+@-webkit-keyframes parapara {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+
+    100% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%)
+    }
+}
+
+@keyframes parapara {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+
+    100% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%)
+    }
+}
+
+@-webkit-keyframes hover-line {
+    0% {
+        width: 0
+    }
+
+    100% {
+        width: 100%
+    }
+}
+
+@keyframes hover-line {
+    0% {
+        width: 0
+    }
+
+    100% {
+        width: 100%
+    }
+}
+
+@-webkit-keyframes fade-in {
+    from,0% {
+        pointer-events: none;
+        opacity: 0
+    }
+
+    100%,to {
+        pointer-events: all;
+        opacity: 1
+    }
+}
+
+@keyframes fade-in {
+    from,0% {
+        pointer-events: none;
+        opacity: 0
+    }
+
+    100%,to {
+        pointer-events: all;
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fade-out {
+    from,0% {
+        opacity: 1
+    }
+
+    100%,to {
+        opacity: 0
+    }
+}
+
+@keyframes fade-out {
+    from,0% {
+        opacity: 1
+    }
+
+    100%,to {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes blur-out {
+    from,0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100%,to {
+        -webkit-filter: blur(0);
+        filter: blur(0)
+    }
+}
+
+@keyframes blur-out {
+    from,0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100%,to {
+        -webkit-filter: blur(0);
+        filter: blur(0)
+    }
+}
+@-webkit-keyframes parapara {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+
+    100% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%)
+    }
+}
+
+@keyframes parapara {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+
+    100% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%)
+    }
+}
+
+@-webkit-keyframes hover-line {
+    0% {
+        width: 0
+    }
+
+    100% {
+        width: 100%
+    }
+}
+
+@keyframes hover-line {
+    0% {
+        width: 0
+    }
+
+    100% {
+        width: 100%
+    }
+}
+
+@-webkit-keyframes fade-in {
+    from,0% {
+        pointer-events: none;
+        opacity: 0
+    }
+
+    100%,to {
+        pointer-events: all;
+        opacity: 1
+    }
+}
+
+@keyframes fade-in {
+    from,0% {
+        pointer-events: none;
+        opacity: 0
+    }
+
+    100%,to {
+        pointer-events: all;
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fade-out {
+    from,0% {
+        opacity: 1
+    }
+
+    100%,to {
+        opacity: 0
+    }
+}
+
+@keyframes fade-out {
+    from,0% {
+        opacity: 1
+    }
+
+    100%,to {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes blur-out {
+    from,0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100%,to {
+        -webkit-filter: blur(0);
+        filter: blur(0)
+    }
+}
+
+@keyframes blur-out {
+    from,0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100%,to {
+        -webkit-filter: blur(0);
+        filter: blur(0)
+    }
+}
+
+/*!
+Copyright (c) 2012 Google Inc. (opensource@google.com).
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at: https://scripts.sil.org/OFL
+*/
+/*!
+YakuHanJP
+OFL-1.1 AND MIT
+-----------------
+SIL Open Font License version 1.1
+Copyright Qrac
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+-----------------
+MIT License
+Copyright Qrac
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+/*! destyle.css v3.0.2 | MIT License | https://github.com/nicolas-cusan/destyle.css */
+*,::before,::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 0
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent
+}
+
+body {
+    margin: 0
+}
+
+main {
+    display: block
+}
+
+p,table,blockquote,address,pre,iframe,form,figure,dl {
+    margin: 0
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0
+}
+
+ul,ol {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+dt {
+    font-weight: bold
+}
+
+dd {
+    margin-left: 0
+}
+
+hr {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    border-top-width: 1px;
+    margin: 0;
+    clear: both;
+    color: inherit
+}
+
+pre {
+    font-family: monospace, monospace;
+    font-size: inherit
+}
+
+address {
+    font-style: inherit
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: inherit
+}
+
+abbr[title] {
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted
+}
+
+b,strong {
+    font-weight: bolder
+}
+
+code,kbd,samp {
+    font-family: monospace, monospace;
+    font-size: inherit
+}
+
+small {
+    font-size: 80%
+}
+
+sub,sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -0.25em
+}
+
+sup {
+    top: -0.5em
+}
+
+svg,img,embed,object,iframe {
+    vertical-align: bottom
+}
+
+button,input,optgroup,select,textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    vertical-align: middle;
+    color: inherit;
+    font: inherit;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    text-align: inherit;
+    text-transform: inherit
+}
+
+[type="checkbox"] {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    appearance: checkbox
+}
+
+[type="radio"] {
+    -webkit-appearance: radio;
+    -moz-appearance: radio;
+    appearance: radio
+}
+
+button,[type="button"],[type="reset"],[type="submit"] {
+    cursor: pointer
+}
+
+button:disabled,[type="button"]:disabled,[type="reset"]:disabled,[type="submit"]:disabled {
+    cursor: default
+}
+
+:-moz-focusring {
+    outline: auto
+}
+
+select:disabled {
+    opacity: inherit
+}
+
+option {
+    padding: 0
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    min-width: 0
+}
+
+legend {
+    padding: 0
+}
+
+progress {
+    vertical-align: baseline
+}
+
+textarea {
+    overflow: auto
+}
+
+[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type="search"] {
+    outline-offset: -2px
+}
+
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+label[for] {
+    cursor: pointer
+}
+
+details {
+    display: block
+}
+
+summary {
+    display: list-item
+}
+
+[contenteditable]:focus {
+    outline: auto
+}
+
+table {
+    border-color: inherit;
+    border-collapse: collapse
+}
+
+caption {
+    text-align: left
+}
+
+td,th {
+    vertical-align: top;
+    padding: 0
+}
+
+th {
+    text-align: left;
+    font-weight: bold
+}
+
+dt,th {
+    font-weight: inherit
+}
+
+a {
+    outline: none
+}
+
+img {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    width: 100%
+}
+
+html {
+    font-family: 'Noto Sans JP', YakuHanJP, sans-serif;
+    font-weight: 500;
+    width: 100%
+}
+
+body {
+    width: 100%;
+    background-color: #fff;
+    text-align: center
+}
+
+body>.wrapper {
+    margin: 0 auto;
+    position: relative;
+    min-width: 1000px;
+    max-width: 1920px;
+    width: 100%
+}
+
+body>.wrapper main {
+    position: relative
+}
+
+body.fixed {
+    width: 100%;
+    position: fixed;
+    top: auto;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.device-sp .visible-pc {
+    display: none
+}
+
+.device-pc .visible-sp {
+    display: none
+}
+
+body.fixed {
+    width: 100%;
+    position: fixed;
+    top: auto;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.c-modal {
+    position: fixed;
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    z-index: 9999;
+    display: none
+}
+
+.c-modal.modal-open-anime {
+    display: block;
+    -webkit-animation: modal-open .3s ease-out 0s 1 forwards;
+    animation: modal-open .3s ease-out 0s 1 forwards
+}
+
+.c-modal.modal-close-anime {
+    -webkit-animation: modal-close .3s ease-out 0s 1 forwards;
+    animation: modal-close .3s ease-out 0s 1 forwards
+}
+
+.c-modal__body {
+    display: table;
+    width: 100%;
+    height: 100%
+}
+
+.c-modal__main {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle
+}
+
+.c-modal__contents {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    z-index: 1
+}
+
+.c-modal__contents__wrap {
+    background-color: #ffffff;
+    width: 1000px
+}
+
+.c-modal__contents__close {
+    display: table;
+    width: 219px;
+    height: 55px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    -webkit-transition: opacity .7s cubic-bezier(0.165, 0.840, 0.440, 1.000);
+    transition: opacity .7s cubic-bezier(0.165, 0.840, 0.440, 1.000)
+}
+
+.c-modal__contents .modal-movie {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0
+}
+
+.c-modal__contents .modal-movie iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.c-modal__contents .modal-image {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%
+}
+
+.c-modal__bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.85)
+}
+
+@-webkit-keyframes modal-open {
+    0% {
+        opacity: 0
+    }
+
+    99.9%,to {
+        opacity: 1
+    }
+}
+
+@keyframes modal-open {
+    0% {
+        opacity: 0
+    }
+
+    99.9%,to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes modal-close {
+    0% {
+        opacity: 1
+    }
+
+    99.9%,to {
+        opacity: 0
+    }
+}
+
+@keyframes modal-close {
+    0% {
+        opacity: 1
+    }
+
+    99.9%,to {
+        opacity: 0
+    }
+}
+
+footer {
+    background-color: #404655;
+    width: 100%;
+    color: rgba(255,255,255,0.8);
+    padding: 50px 0
+}
+
+footer .footer-c__share {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 16px;
+    color: rgba(255,255,255,0.6)
+}
+
+footer .footer-c__share__title {
+    letter-spacing: .12em;
+    font-size: 17px;
+    margin-right: 18px
+}
+
+footer .footer-c__share>ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+footer .footer-c__share>ul>li {
+    margin: 0 11px
+}
+
+footer .footer-c__share>ul>li>a img {
+    width: 37px;
+    -webkit-transition: opacity .7s cubic-bezier(0.165, 0.840, 0.440, 1.000);
+    transition: opacity .7s cubic-bezier(0.165, 0.840, 0.440, 1.000)
+}
+
+footer .footer-c__banner>ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 50px auto
+}
+
+footer .footer-c__banner>ul>li {
+    margin: 0 5px
+}
+
+footer .footer-c__banner>ul>li img {
+    -webkit-transition: opacity .7s cubic-bezier(0.165, 0.840, 0.440, 1.000);
+    transition: opacity .7s cubic-bezier(0.165, 0.840, 0.440, 1.000)
+}
+
+footer .footer-c__banner>ul>li>a img {
+    width: 236px;
+    height: 80px
+}
+
+footer .footer-c__about>ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    margin-bottom: 25px
+}
+
+footer .footer-c__about>ul>li {
+    margin: 0 18px
+}
+
+footer .footer-c__about>ul>li>a {
+    position: relative;
+    -webkit-transition: opacity .7s cubic-bezier(0.165, 0.840, 0.440, 1.000);
+    transition: opacity .7s cubic-bezier(0.165, 0.840, 0.440, 1.000)
+}
+
+footer .footer-c__about>ul>li>a::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: -.35em;
+    background-color: #ffffff;
+    pointer-events: none
+}
+
+footer .footer-c__note,footer .footer-c__copyright {
+    line-height: 1.8;
+    font-size: 10px
+}
+
+footer .footer-c__logo {
+    margin-top: 40px
+}
+
+footer .footer-c__logo img {
+    width: 198px;
+    height: 11px
+}
+
+.kv {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    min-height: 562.5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden
+}
+
+.kv__leaf {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.kv__leaf #canvas,.kv__leaf #animation_container,.kv__leaf #dom_overlay_container {
+    width: 100% !important;
+    height: 100% !important
+}
+
+.kv__text>* {
+    position: relative;
+    opacity: 0;
+    -webkit-transition: opacity 1.2s cubic-bezier(0.165, 0.840, 0.440, 1.000);
+    transition: opacity 1.2s cubic-bezier(0.165, 0.840, 0.440, 1.000)
+}
+
+.kv__text .logo {
+    position: absolute;
+    margin-top: 13.98148%;
+    width: 20.20833%
+}
+
+.kv__text .catch {
+    position: absolute;
+    margin-top: 5.74074%;
+    left: 48.22917%;
+    width: 3.48958%
+}
+
+.kv__text .onair {
+    position: absolute;
+    margin-top: 33.14815%;
+    width: 25.52083%
+}
+
+.kv__text .kita .logo {
+    right: 13.4375%
+}
+
+.kv__text .kita .onair {
+    right: 10.20833%
+}
+
+.kv__text .satono .logo {
+    left: 12.39583%
+}
+
+.kv__text .satono .onair {
+    left: 10.20833%
+}
+
+.kv__change-btn {
+    position: absolute;
+    bottom: 4.84815%;
+    right: .36458%;
+    width: 12.70833%;
+    height: 7.77778%;
+    z-index: 1
+}
+
+.kv__change-btn>* {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 1
+}
+
+.kv__change-btn>*::after {
+    content: '';
+    position: absolute;
+    top: -4.62963%;
+    left: -10.41667%;
+    width: 7.8125%;
+    height: 18.51852%;
+    background-image: -webkit-linear-gradient(350deg, rgba(255,255,255,0) 10%, #fff 80%, #fff 100%, rgba(255,255,255,0) 0%);
+    background-image: linear-gradient(100deg, rgba(255,255,255,0) 10%, #fff 80%, #fff 100%, rgba(255,255,255,0) 0%);
+    -webkit-animation: shiny 4s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite;
+    animation: shiny 4s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite;
+    z-index: 1;
+    pointer-events: none
+}
+
+.kv__change-btn>* .hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    transition: opacity 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    z-index: 1
+}
+
+.kv__chara {
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    top: 0
+}
+
+.kv__chara>p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: none
+}
+
+.kv__bg>* {
+    position: relative
+}
+
+.kv__bg .kita .kv__chara {
+    left: 28.40816%;
+    width: 20.40816%
+}
+
+.kv__bg .satono .kv__chara {
+    right: 23.5102%;
+    width: 24.4898%
+}
+
+.kv__layer {
+    position: absolute;
+    top: 0;
+    width: 127.60417%
+}
+
+.kv__layer>* {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+.type-kita .kv__bg.display-none .satono {
+    display: none
+}
+
+.type-satono .kv__bg.display-none .kita {
+    display: none
+}
+
+.kv__bg .kita .kv__layer {
+    left: -23.54167%
+}
+
+.kv__bg .satono .kv__layer {
+    left: -4.0625%
+}
+
+.kv__white {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff
+}
+
+.loaded .kv__text .logo {
+    -webkit-animation: fade-in 1s 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: fade-in 1s 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+}
+
+.loaded .kv__text .onair {
+    -webkit-animation: fade-in 1s 4.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: fade-in 1s 4.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+}
+
+.loaded .kv__text .catch {
+    -webkit-animation: fade-in 1s 5.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: fade-in 1s 5.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+}
+
+.loaded .kv__change-btn {
+    -webkit-animation: slide-in-visible 1.5s 6s cubic-bezier(0.190, 1.000, 0.220, 1.000) both;
+    animation: slide-in-visible 1.5s 6s cubic-bezier(0.190, 1.000, 0.220, 1.000) both
+}
+
+.loaded .kv__bg {
+    -webkit-animation: blur-out 2s 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: blur-out 2s 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+}
+
+.loaded .kv__white {
+    -webkit-animation: fade-out 2s 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: fade-out 2s 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+}
+
+.loaded .type-kita .kv__bg .kita {
+    -webkit-animation: blur-out 2.4s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
+    animation: blur-out 2.4s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
+    z-index: 2;
+    will-change: transform;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+
+.loaded .type-kita .kv__bg .kita .kv__layer-4 {
+    -webkit-animation: anime_layer_4_kita_first 4s 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: anime_layer_4_kita_first 4s 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+}
+
+.loaded .type-kita .kv__bg .kita .kv__layer-3 {
+    -webkit-animation: anime_layer_3_kita_first 4s 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: anime_layer_3_kita_first 4s 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+}
+
+.loaded .type-kita .kv__bg .kita .kv__layer-2 {
+    -webkit-animation: anime_layer_2_kita_first 4s 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: anime_layer_2_kita_first 4s 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+}
+
+.loaded .type-kita .kv__bg .kita .kv__layer-1 {
+    -webkit-animation: anime_layer_1_kita_first 4s 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: anime_layer_1_kita_first 4s 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+}
+
+.loaded .type-kita .kv__bg.change-anime .kita .kv__layer-4 {
+    -webkit-animation: anime_layer_4_kita 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: anime_layer_4_kita 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+}
+
+.loaded .type-kita .kv__bg.change-anime .kita .kv__layer-3 {
+    -webkit-animation: anime_layer_3_kita 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: anime_layer_3_kita 3s cubic-bezier(0.25, 0.46, 0.49, 0.98) both
+}
+
+.loaded .type-kita .kv__bg.change-anime .kita .kv__layer-2 {
+    -webkit-animation: anime_layer_2_kita 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: anime_layer_2_kita 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+}
+
+.loaded .type-kita .kv__bg.change-anime .kita .kv__layer-1 {
+    -webkit-animation: anime_layer_1_kita 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: anime_layer_1_kita 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+}
+
+.loaded .type-kita .kv__text .kita {
+    opacity: 1
+}
+
+.loaded .type-kita .kv__change-btn .kita {
+    -webkit-animation: slide-in 1.2s 3s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
+    animation: slide-in 1.2s 3s cubic-bezier(0.165, 0.840, 0.440, 1.000) both
+}
+
+.loaded .type-satono .kv__bg .satono {
+    -webkit-animation: blur-out 2.4s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
+    animation: blur-out 2.4s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
+    z-index: 2;
+    will-change: transform;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+
+.loaded .type-satono .kv__bg .satono .kv__layer-4 {
+    -webkit-animation: anime_layer_4_satono_first 4s 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: anime_layer_4_satono_first 4s 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+}
+
+.loaded .type-satono .kv__bg .satono .kv__layer-3 {
+    -webkit-animation: anime_layer_3_satono_first 4s 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: anime_layer_3_satono_first 4s 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+}
+
+.loaded .type-satono .kv__bg .satono .kv__layer-2 {
+    -webkit-animation: anime_layer_2_satono_first 4s 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: anime_layer_2_satono_first 4s 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+}
+
+.loaded .type-satono .kv__bg .satono .kv__layer-1 {
+    -webkit-animation: anime_layer_1_satono_first 4s 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: anime_layer_1_satono_first 4s 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+}
+
+.loaded .type-satono .kv__bg.change-anime .satono .kv__layer-4 {
+    -webkit-animation: anime_layer_4_satono 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: anime_layer_4_satono 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+}
+
+.loaded .type-satono .kv__bg.change-anime .satono .kv__layer-3 {
+    -webkit-animation: anime_layer_3_satono 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: anime_layer_3_satono 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+}
+
+.loaded .type-satono .kv__bg.change-anime .satono .kv__layer-2 {
+    -webkit-animation: anime_layer_2_satono 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: anime_layer_2_satono 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+}
+
+.loaded .type-satono .kv__bg.change-anime .satono .kv__layer-1 {
+    -webkit-animation: anime_layer_1_satono 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: anime_layer_1_satono 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+}
+
+.loaded .type-satono .kv__text .satono {
+    opacity: 1
+}
+
+.loaded .type-satono .kv__change-btn .satono {
+    -webkit-animation: slide-in 1.2s 3s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
+    animation: slide-in 1.2s 3s cubic-bezier(0.165, 0.840, 0.440, 1.000) both
+}
+
+@-webkit-keyframes slide-in {
+    from,0% {
+        pointer-events: none;
+        -webkit-transform: translateX(50%);
+        transform: translateX(50%);
+        opacity: 0
+    }
+
+    100%,to {
+        pointer-events: auto;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1
+    }
+}
+
+@keyframes slide-in {
+    from,0% {
+        pointer-events: none;
+        -webkit-transform: translateX(50%);
+        transform: translateX(50%);
+        opacity: 0
+    }
+
+    100%,to {
+        pointer-events: auto;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes slide-in-visible {
+    from,0% {
+        visibility: hidden;
+        -webkit-transform: translateX(50%);
+        transform: translateX(50%);
+        opacity: 0
+    }
+
+    100%,to {
+        visibility: visible;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1
+    }
+}
+
+@keyframes slide-in-visible {
+    from,0% {
+        visibility: hidden;
+        -webkit-transform: translateX(50%);
+        transform: translateX(50%);
+        opacity: 0
+    }
+
+    100%,to {
+        visibility: visible;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes anime_layer_1_kita {
+    from,0% {
+        -webkit-transform: translate3d(10.9375%, 0, 0);
+        transform: translate3d(10.9375%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes anime_layer_1_kita {
+    from,0% {
+        -webkit-transform: translate3d(10.9375%, 0, 0);
+        transform: translate3d(10.9375%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@-webkit-keyframes anime_layer_1_kita_first {
+    from,0% {
+        -webkit-transform: translate3d(15.625%, 0, 0);
+        transform: translate3d(15.625%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes anime_layer_1_kita_first {
+    from,0% {
+        -webkit-transform: translate3d(15.625%, 0, 0);
+        transform: translate3d(15.625%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@-webkit-keyframes anime_layer_2_kita {
+    from,0% {
+        -webkit-transform: translate3d(10.39062%, 0, 0);
+        transform: translate3d(10.39062%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes anime_layer_2_kita {
+    from,0% {
+        -webkit-transform: translate3d(10.39062%, 0, 0);
+        transform: translate3d(10.39062%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@-webkit-keyframes anime_layer_2_kita_first {
+    from,0% {
+        -webkit-transform: translate3d(14.84375%, 0, 0);
+        transform: translate3d(14.84375%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes anime_layer_2_kita_first {
+    from,0% {
+        -webkit-transform: translate3d(14.84375%, 0, 0);
+        transform: translate3d(14.84375%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@-webkit-keyframes anime_layer_3_kita {
+    from,0% {
+        -webkit-transform: translate3d(8.38542%, 0, 0);
+        transform: translate3d(8.38542%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes anime_layer_3_kita {
+    from,0% {
+        -webkit-transform: translate3d(8.38542%, 0, 0);
+        transform: translate3d(8.38542%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@-webkit-keyframes anime_layer_3_kita_first {
+    from,0% {
+        -webkit-transform: translate3d(11.97917%, 0, 0);
+        transform: translate3d(11.97917%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes anime_layer_3_kita_first {
+    from,0% {
+        -webkit-transform: translate3d(11.97917%, 0, 0);
+        transform: translate3d(11.97917%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@-webkit-keyframes anime_layer_4_kita {
+    from,0% {
+        -webkit-transform: translate3d(6.5625%, 0, 0);
+        transform: translate3d(6.5625%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes anime_layer_4_kita {
+    from,0% {
+        -webkit-transform: translate3d(6.5625%, 0, 0);
+        transform: translate3d(6.5625%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@-webkit-keyframes anime_layer_4_kita_first {
+    from,0% {
+        -webkit-transform: translate3d(9.375%, 0, 0);
+        transform: translate3d(9.375%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes anime_layer_4_kita_first {
+    from,0% {
+        -webkit-transform: translate3d(9.375%, 0, 0);
+        transform: translate3d(9.375%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@-webkit-keyframes anime_layer_1_satono {
+    from,0% {
+        -webkit-transform: translate3d(-10.9375%, 0, 0);
+        transform: translate3d(-10.9375%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes anime_layer_1_satono {
+    from,0% {
+        -webkit-transform: translate3d(-10.9375%, 0, 0);
+        transform: translate3d(-10.9375%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@-webkit-keyframes anime_layer_1_satono_first {
+    from,0% {
+        -webkit-transform: translate3d(-15.625%, 0, 0);
+        transform: translate3d(-15.625%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes anime_layer_1_satono_first {
+    from,0% {
+        -webkit-transform: translate3d(-15.625%, 0, 0);
+        transform: translate3d(-15.625%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@-webkit-keyframes anime_layer_2_satono {
+    from,0% {
+        -webkit-transform: translate3d(-10.39062%, 0, 0);
+        transform: translate3d(-10.39062%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes anime_layer_2_satono {
+    from,0% {
+        -webkit-transform: translate3d(-10.39062%, 0, 0);
+        transform: translate3d(-10.39062%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@-webkit-keyframes anime_layer_2_satono_first {
+    from,0% {
+        -webkit-transform: translate3d(-14.84375%, 0, 0);
+        transform: translate3d(-14.84375%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes anime_layer_2_satono_first {
+    from,0% {
+        -webkit-transform: translate3d(-14.84375%, 0, 0);
+        transform: translate3d(-14.84375%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@-webkit-keyframes anime_layer_3_satono {
+    from,0% {
+        -webkit-transform: translate3d(-8.38542%, 0, 0);
+        transform: translate3d(-8.38542%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes anime_layer_3_satono {
+    from,0% {
+        -webkit-transform: translate3d(-8.38542%, 0, 0);
+        transform: translate3d(-8.38542%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@-webkit-keyframes anime_layer_3_satono_first {
+    from,0% {
+        -webkit-transform: translate3d(-11.97917%, 0, 0);
+        transform: translate3d(-11.97917%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes anime_layer_3_satono_first {
+    from,0% {
+        -webkit-transform: translate3d(-11.97917%, 0, 0);
+        transform: translate3d(-11.97917%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@-webkit-keyframes anime_layer_4_satono {
+    from,0% {
+        -webkit-transform: translate3d(-6.5625%, 0, 0);
+        transform: translate3d(-6.5625%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes anime_layer_4_satono {
+    from,0% {
+        -webkit-transform: translate3d(-6.5625%, 0, 0);
+        transform: translate3d(-6.5625%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@-webkit-keyframes anime_layer_4_satono_first {
+    from,0% {
+        -webkit-transform: translate3d(-9.375%, 0, 0);
+        transform: translate3d(-9.375%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes anime_layer_4_satono_first {
+    from,0% {
+        -webkit-transform: translate3d(-9.375%, 0, 0);
+        transform: translate3d(-9.375%, 0, 0)
+    }
+
+    100%,to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@-webkit-keyframes shiny {
+    0% {
+        -webkit-transform: scale(0) rotate(25deg);
+        transform: scale(0) rotate(25deg);
+        opacity: 0
+    }
+
+    40% {
+        -webkit-transform: scale(1) rotate(25deg);
+        transform: scale(1) rotate(25deg);
+        opacity: 1
+    }
+
+    80% {
+        -webkit-transform: scale(50) rotate(25deg);
+        transform: scale(50) rotate(25deg);
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes shiny {
+    0% {
+        -webkit-transform: scale(0) rotate(25deg);
+        transform: scale(0) rotate(25deg);
+        opacity: 0
+    }
+
+    40% {
+        -webkit-transform: scale(1) rotate(25deg);
+        transform: scale(1) rotate(25deg);
+        opacity: 1
+    }
+
+    80% {
+        -webkit-transform: scale(50) rotate(25deg);
+        transform: scale(50) rotate(25deg);
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+.contents-wrapper {
+    position: relative;
+    background-image: url(/assets/images/top/bg_grass.png?20230222150531);
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 80px
+}
+
+.contents-wrapper img {
+    display: block;
+    margin: 0 auto
+}
+
+.contents-wrapper section.js-io {
+    opacity: 0;
+    -webkit-transition: opacity 1s 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    transition: opacity 1s 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000)
+}
+
+.contents-wrapper section.js-io.is-show {
+    opacity: 1
+}
+
+.contents-wrapper .movie-thumbnail {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    width: 640px;
+    height: 360px
+}
+
+.contents-wrapper .movie-thumbnail__band {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 346px;
+    height: 96px
+}
+
+.contents-wrapper .movie-thumbnail__img {
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+    -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    transition: -webkit-transform 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    transition: transform 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    transition: transform 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940), -webkit-transform 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940)
+}
+
+.contents-wrapper .movie-thumbnail::before,.contents-wrapper .movie-thumbnail::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1
+}
+
+.contents-wrapper .movie-thumbnail::before {
+    background-image: url(/assets/images/top/btn_play.png?20230222150531);
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+.contents-wrapper .movie-thumbnail::after {
+    background-image: url(/assets/images/top/thumb_overlay.png?20230222150531);
+    background-position: center;
+    background-repeat: no-repeat;
+    mix-blend-mode: overlay;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    transition: opacity 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940)
+}
+
+.contents-wrapper .trailer {
+    margin-bottom: 100px
+}
+
+.contents-wrapper .trailer__title {
+    width: 530px;
+    height: 25px;
+    margin-bottom: 50px
+}
+
+.contents-wrapper .introduction {
+    margin-bottom: 100px
+}
+
+.contents-wrapper .introduction__title {
+    width: 660px;
+    height: 24px;
+    margin-bottom: 60px
+}
+
+.contents-wrapper .introduction__lead {
+    width: 766px;
+    height: 599px
+}
+
+.contents-wrapper .prologue {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: url(/assets/images/top/prologue_bg.jpg?20230222150531);
+    background-position: center;
+    width: 100%;
+    height: 795px;
+    padding: 58px 0 75px;
+    margin-bottom: 65px
+}
+
+.contents-wrapper .prologue__title {
+    width: 617px;
+    height: 38px;
+    margin-bottom: 5px
+}
+
+.contents-wrapper .prologue__lead {
+    width: 663px;
+    height: 149px
+}
+
+.contents-wrapper .prologue__link {
+    width: 179px;
+    height: 32px;
+    position: relative
+}
+
+.contents-wrapper .prologue__link p {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.contents-wrapper .prologue__link p img {
+    width: 179px;
+    height: 32px
+}
+
+.contents-wrapper .caststaff {
+    margin-bottom: 120px
+}
+
+.contents-wrapper .caststaff__title {
+    width: 635px;
+    height: 22px;
+    margin-bottom: 60px
+}
+
+.contents-wrapper .caststaff__lead {
+    width: 880px;
+    height: 514px
+}
+
+.contents-wrapper .archive {
+    margin-bottom: 120px
+}
+
+.contents-wrapper .archive__title {
+    width: 578px;
+    height: 22px;
+    margin-bottom: 30px
+}
+
+.contents-wrapper .archive>ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: -15px 0
+}
+
+.contents-wrapper .archive>ul>li {
+    margin: 15px 10px
+}
+
+.contents-wrapper .archive>ul>li img {
+    width: 480px;
+    height: 210px;
+    -webkit-transition: opacity .7s cubic-bezier(0.165, 0.840, 0.440, 1.000);
+    transition: opacity .7s cubic-bezier(0.165, 0.840, 0.440, 1.000)
+}
+
+.contents-wrapper .twitter {
+    background-color: #f1f3f6;
+    width: 100%;
+    padding: 60px 0 100px
+}
+
+.contents-wrapper .twitter__title {
+    width: 273px;
+    height: 68px;
+    margin-bottom: 15px
+}
+
+.contents-wrapper .twitter__follow {
+    margin: 0 auto;
+    width: 546px;
+    height: 30px;
+    position: relative;
+    margin-bottom: 30px
+}
+
+.contents-wrapper .twitter__follow img {
+    -webkit-transition: opacity .7s cubic-bezier(0.165, 0.840, 0.440, 1.000);
+    transition: opacity .7s cubic-bezier(0.165, 0.840, 0.440, 1.000)
+}
+
+.contents-wrapper .twitter__timeline {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 780px;
+    height: 476px;
+    padding: 40px 40px 40px 20px
+}
+
+.contents-wrapper .twitter__timeline .scroll-area {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch
+}
+
+.contents-wrapper .twitter__timeline .scroll-area::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgba(101,109,129,0.5);
+    border-radius: 10px
+}
+
+.contents-wrapper .twitter__timeline .scroll-area::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: #656d81;
+    border-radius: 10px
+}
+
+.contents-wrapper .twitter__timeline .scroll-area .twitter-timeline {
+    padding-right: 20px
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .c-modal__contents__close:hover {
+        opacity:.7
+    }
+
+    footer .footer-c__share>ul>li>a img:hover {
+        opacity: .5
+    }
+
+    footer .footer-c__banner>ul>li img:hover {
+        opacity: .5
+    }
+
+    footer .footer-c__about>ul>li>a:hover {
+        opacity: .5
+    }
+
+    .kv__change-btn>*:hover .hover {
+        opacity: 1
+    }
+
+    .contents-wrapper .movie-thumbnail:hover .movie-thumbnail__img {
+        -webkit-transition-duration: .5s;
+        transition-duration: .5s;
+        -webkit-transform: scale(1.06, 1.06);
+        -ms-transform: scale(1.06, 1.06);
+        transform: scale(1.06, 1.06)
+    }
+
+    .contents-wrapper .movie-thumbnail:hover::after {
+        opacity: 1
+    }
+
+    .contents-wrapper .prologue__link:hover p {
+        -webkit-animation: hover-line 0.7s cubic-bezier(0.165, 0.840, 0.440, 1.000);
+        animation: hover-line 0.7s cubic-bezier(0.165, 0.840, 0.440, 1.000)
+    }
+
+    .contents-wrapper .archive>ul>li img:hover {
+        opacity: .5
+    }
+
+    .contents-wrapper .twitter__follow img:hover {
+        opacity: .5
+    }
+}
