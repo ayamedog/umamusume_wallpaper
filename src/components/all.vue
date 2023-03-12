@@ -126,6 +126,9 @@ export default {
     setTimeout(e => {
       this.init()
     },2500)
+  },
+  destroyed() {
+    clearInterval(this.timer)
   }
 }
 </script>
