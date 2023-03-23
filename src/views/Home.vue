@@ -26,10 +26,23 @@ export default {
     init() {
       this.$refs.audio.currentTime = 0;
       this.$refs.audio.play();
+
     },
   },
   mounted() {
     this.init()
+    let that = this
+    window.wallpaperPropertyListener = {
+      applyUserProperties: function(properties) {
+        console.log(properties);
+        if (properties.volume1) {
+          let value = properties.volume1.value;
+          console.log(value);
+          that.$refs.audio.volume = value
+          // Do something useful with the value here or assign it to a global variable
+        }
+      },
+    };
   }
 
 }
